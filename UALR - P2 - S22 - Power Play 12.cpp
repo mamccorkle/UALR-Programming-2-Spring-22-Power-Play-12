@@ -1,3 +1,15 @@
+//
+//  UALR - P2 - S22 - Power Play 12.cpp
+//
+//  Project: UALR - Programming 2 - Spring 22 - Power Play 12
+//  Created by: Mark McCorkle on 20220415
+//  Based on: Code Provided by Sean Orme
+// 
+//  IDE: CLion 2021.2.3     - UNVERIFIED
+//  IDE: XCode              - UNVERIFIED
+//  IDE: Visual Studio 2022 - VERIFIED
+//  IDE: Linux via g++      - UNVERIFIED
+//
 #include <iostream>
 #include <string>
 #include <vector>

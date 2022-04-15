@@ -16,7 +16,13 @@ void FuryStrategy::execute(std::vector<std::unique_ptr<Object>>& objects)
 	{
 		objects.at(i)->defend(owner->attack());
 		objects.at(i)->defend(owner->attack());
-		objects.at(i)->scare();
+		// Bonus for Ba2:
+		// % chance it will scare the monster based on the number of monsters
+		// The more monsters the less it scares them:
+		std::bernoulli_distribution ranScare((1.0 - ((int)objects.size() - 1.0) / (int)objects.size()));
+		if (ranScare(Object::engine))
+			objects.at(i)->scare();
+		//objects.at(i)->scare();
 	}
 	std::cout << "The fury has left you weakend, your strength drops " << owner->getStrength() << " --> ";
 	owner->weaken(1);

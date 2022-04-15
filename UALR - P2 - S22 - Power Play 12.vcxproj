@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BasicAttackStrategy.cpp" />
+    <ClCompile Include="FearStrategy.cpp" />
     <ClCompile Include="FireballStrategy.cpp" />
     <ClCompile Include="FuryStrategy.cpp" />
     <ClCompile Include="HealStrategy.cpp" />
@@ -153,6 +154,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BasicAttackStrategy.h" />
+    <ClInclude Include="FearStrategy.h" />
     <ClInclude Include="FireballStrategy.h" />
     <ClInclude Include="FuryStrategy.h" />
     <ClInclude Include="HealStrategy.h" />

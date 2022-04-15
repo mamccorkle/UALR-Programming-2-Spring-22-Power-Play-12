@@ -79,7 +79,7 @@ void Player::levelUp()
 		abilities.emplace(std::make_unique<FireballStrategy>(this));
 		break;
 	case 5:
-		//abilities.emplace(std::make_unique<FuryStrategy>(this));
+		abilities.emplace(std::make_unique<FearStrategy>(this));
 		break;
 	}
 

@@ -10,6 +10,7 @@
 
 > ##### Player now gains abilities with each Level (using strategy pattern).
 > 
+> 
 > A. Level:
 > 
 > 1. Basic Attack
@@ -17,8 +18,10 @@
 > 2. Heal Spell - heal 2x strength on distribution (2 SP)
 > 
 > 3. Fury Attack - attack first two creatures twice and makes them afraid, permanently lose 1 strength
+>    
 > 
 > B. Player class has STL vector of `std::unique_ptr<Object>&`
+> 
 > 
 > C. iStrategy has the following:
 > 
@@ -29,6 +32,7 @@
 > 3. `Object* owner;`
 > 
 > 4. `virtual void execute(std::vector <std::unique_ptr>& objects) = 0;`
+>    
 > 
 > #### Your turn:
 > 
@@ -36,15 +40,19 @@
 > 
 > 1. Fireball Spell - deals basic attack damage to first 3 creatures. (5 SP)
 > 2. Fear Spell - 50% chance of causing fear. Affects all creatures. Reduces there chance to attack to 50% (3 SP)
+>    
 > 
 > B. For fun:
 > 
-> a. Give monsters spell resistance based on type.
+> 1. Give Monsters spell resistance based on type
+>    
+>    i) reduces fireball damage by percentage
+>    
+>    ii) reduces chance of causing fear by percentage
 > 
-> 1. reduces fireball damage by percentage
-> 2. reduces chance of causing fear by percentage
-> 
-> b. Give monsters differing attacks and spells!
+> 2. Give monsters differeing attacks and spells!
+>    
+>    
 
 #### Submission Due Date:
 

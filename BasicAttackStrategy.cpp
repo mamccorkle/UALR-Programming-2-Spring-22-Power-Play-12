@@ -1,14 +1,15 @@
-#include "BasicAttackStrategy.h"
+
 #include <iostream>
+
+#include "BasicAttackStrategy.h"
 #include "Player.h"
+
 BasicAttackStrategy::BasicAttackStrategy(Player* owner)
 	:iStrategy(owner, 'a', "(a)ttack")
-{
-}
+{ }
 
 void BasicAttackStrategy::execute(std::vector<std::unique_ptr<Object>>& objects)
 {
-
 	int monsterNum{ 1 };
 	if (objects.size() > 2)
 	{

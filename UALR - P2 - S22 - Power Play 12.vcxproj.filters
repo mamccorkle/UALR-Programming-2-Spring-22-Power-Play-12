@@ -48,6 +48,9 @@
     <ClCompile Include="iStrategy.cpp">
       <Filter>Source Files\Strategies</Filter>
     </ClCompile>
+    <ClCompile Include="FireballStrategy.cpp">
+      <Filter>Source Files\Strategies</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Item.h">
@@ -75,6 +78,9 @@
       <Filter>Header Files\Strategies</Filter>
     </ClInclude>
     <ClInclude Include="StrategyList.h">
+      <Filter>Header Files\Strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="FireballStrategy.h">
       <Filter>Header Files\Strategies</Filter>
     </ClInclude>
   </ItemGroup>

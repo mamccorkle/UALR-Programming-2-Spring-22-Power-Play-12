@@ -75,7 +75,14 @@ void Player::levelUp()
 	case 3:
 		abilities.emplace(std::make_unique<FuryStrategy>(this));
 		break;
+	case 4:
+		abilities.emplace(std::make_unique<FireballStrategy>(this));
+		break;
+	case 5:
+		//abilities.emplace(std::make_unique<FuryStrategy>(this));
+		break;
 	}
+
 	std::normal_distribution<double> randomHealth(20.0 + (long long)level * 5, 5.0);
 	health += std::max(1, (int)randomHealth(engine));
 

@@ -1,7 +1,9 @@
 #pragma once
-#include<string>
-#include <vector>
+
 #include <memory>
+#include <string>
+#include <vector>
+
 class Object;
 class Player;
 class iStrategy
@@ -15,4 +17,5 @@ public:
 	Player* owner{ nullptr };
 
 	virtual void execute(std::vector <std::unique_ptr<Object>>& objects) = 0;
+
 };

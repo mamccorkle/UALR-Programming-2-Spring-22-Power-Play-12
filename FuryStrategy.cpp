@@ -1,10 +1,12 @@
+
+#include <iostream>
+
 #include "FuryStrategy.h"
 #include "Player.h"
-#include <iostream>
+
 FuryStrategy::FuryStrategy(Player* owner)
 	:iStrategy(owner, 'f', "(f)ury")
-{
-}
+{ }
 
 void FuryStrategy::execute(std::vector<std::unique_ptr<Object>>& objects)
 {

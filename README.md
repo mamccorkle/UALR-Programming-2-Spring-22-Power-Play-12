@@ -14,7 +14,7 @@
 > 
 > 1. Basic Attack
 > 
-> 2. Heal Spell - heal 2x strength on distribution (2SP)
+> 2. Heal Spell - heal 2x strength on distribution (2 SP)
 > 
 > 3. Fury Attack - attack first two creatures twice and makes them afraid, permanently lose 1 strength
 > 
@@ -34,14 +34,14 @@
 > 
 > A. Level:
 > 
-> 1. Fireball Spell - deals basic attack damage to first 3 creatures. (5SP)  
-> 2. Fear Spell - 50% chance of causing fear. Affects all creatures. Reduces there chance to attack to 50% (3SP)
+> 1. Fireball Spell - deals basic attack damage to first 3 creatures. (5 SP)
+> 2. Fear Spell - 50% chance of causing fear. Affects all creatures. Reduces there chance to attack to 50% (3 SP)
 > 
 > B. For fun:
 > 
-> a. Give monsters spell resistance based on type.  
+> a. Give monsters spell resistance based on type.
 > 
-> 1. reduces fireball damage by percentage  
+> 1. reduces fireball damage by percentage
 > 2. reduces chance of causing fear by percentage
 > 
 > b. Give monsters differing attacks and spells!

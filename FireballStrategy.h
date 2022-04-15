@@ -2,12 +2,12 @@
 
 #include "iStrategy.h"
 
-class Player;
-class BasicAttackStrategy : public iStrategy
+class FireballStrategy: public iStrategy
 {
 public:
-	BasicAttackStrategy(Player* owner);
+	FireballStrategy(Player* owner);
 
 	void execute(std::vector <std::unique_ptr<Object>>& objects) override;
 
 };
+

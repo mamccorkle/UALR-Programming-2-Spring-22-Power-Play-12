@@ -1,4 +1,7 @@
 #pragma once
-#include "HealStrategy.h"
+
 #include "BasicAttackStrategy.h"
+#include "FireballStrategy.h"
 #include "FuryStrategy.h"
+#include "HealStrategy.h"
+

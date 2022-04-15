@@ -1,10 +1,12 @@
+
+#include <iostream>
+
 #include "HealStrategy.h"
 #include "Player.h"
-#include <iostream>
+
 HealStrategy::HealStrategy(Player* owner)
 	:iStrategy(owner, 'h', "(h)eal")
-{
-}
+{ }
 
 void HealStrategy::execute(std::vector<std::unique_ptr<Object>>& objects)
 {
@@ -18,5 +20,4 @@ void HealStrategy::execute(std::vector<std::unique_ptr<Object>>& objects)
 		std::cout << *owner << " is healed by " << amountHealed << "hp!" << std::endl;
 		owner->heal(amountHealed);
 	}
-
 }
